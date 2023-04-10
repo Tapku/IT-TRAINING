@@ -1,0 +1,238 @@
+Types of internet :-
+	1)Digital Subscriber Line--The internet which passes through telecommunication line is called DSl. 
+
+	2)cable Interenet:- The internet which pssess through cable is called Cable internet.
+
+	3)Fibre optics:-The internet passes through optical wires with light is called fiber optics interent.
+	
+	4)Satellite Internet:-The internet which comes through satellite is called satellite internet.
+
+	5)Wireless internet:- The internet which comes without any connections or any wires is called wireless internet.
+					Eg:--Wifi, Router , Broadband.
+
+	6)Broadband Over Power LInes:- The  internet which comes through Broadband with power in it is called Broadband Power LInes(BPL).
+	
+
+
+Applications of Internet:-
+	
+	-->Social Media: Insta , fb, Youtube, whatsapp etc.
+
+	-->Protocols in Software Enginneering:-
+		-What's Protocol?
+		Ans:It's a set of rules to connect the network between the computers.
+			1-FTP:--File Transfer Protocol--The protocol which is used to transfer file between computers is known as FTP.
+			2-HTTP:-- Hyper text transfer Protocol--used to transfer websites to the sever.
+			3-E-mail protocol:-- IS used to transfer the emails between two or more computers.
+				Eg:--SMTP, Pop3.
+			4-TCP/IP:--Transmission Control Protocol and Internet protocol--USed to transfer the internet connection between two computers.
+			 
+
+Today TAsks:-1>Whats software? Whats software engineering?
+		Ans:- Software:- is a set of instructions, written in computer code, that tells a computer how to behave or how to perform a specific task.
+			What is Software? " Software is a set of programs (sequence of instructions) that allows the users to perform a well-defined function or some specified task. "
+			Engineering:-Software engineering is the application of principles used in the field of engineering, which usually deals with physical systems, to the design, development, testing, deployment(the use of something or someone in an effective way) and management of software systems.
+					
+					Software engineering is defined as a process of analyzing user requirements and then designing, building, and testing software application which will satisfy those requirements.
+
+Application Security:-
+			Its a concept to know how you secure you application from hacking or any malware attack.
+
+				Software for this:App sec.
+
+Software Applications:-
+			USed  in daily life in mobile or computer is known as software Applications.
+	Types of Software Applications:-
+		1)Applplication Software:-Eg-VLC, DEV C++, VS code etc.
+		2)System Software:-Is already present in our system like CALCULATOR, CALENDER etc. 
+		3)Programming Software:-is USed to build or run the program or code like:-CODE BLOCKS, DEV C++ ,VS CODE etc.
+		4)Driver Software:-Which comes in computer to store the data like C drive, D drive etc.
+		5)Middleware software:-IS used to communicate between two applications.Eg--MIddleware communicate , Middleware App etc.
+
+20-1-2023
+
+Architecture of Software:- 
+		Its the blueprint of how to build a software.
+		It tells the development team of how to build a quality software.(to check/test the quality of arch. )
+	arch. diagram:
+		client----> context-->(strategy)-->interface<--1st implementation(Algorithm) , 2nd implementation(Algorithm).
+
+	Entity of Architecture:-
+
+			-OPen closed Principle:-Software entities can be extended further but can't be modified(logic remaiins remain unchanged as its inside main box).
+							-logic can be changed if entity is placed outside the main box.
+	Software Architecture:- various ways of organizing pre defined s/w arch. and different components of are patterns.
+
+Layers in S/w Arch.:-
+
+		1)presentation Layer:-	HAndles the interaction between users and s/w.
+					    - Defines overall look presentation of software.	
+		2)Application LAYER:-	It handles the main program of archi./s/w .
+						- includes-Code definition and main pro. of s/w.
+		3)Business Layer:-	Its layer where business logic can operated.
+						-tells how to run s/w ot its logic. 
+						eg:-where to place our built s/w in market, target audience etc.
+		4)Persistence layer:- Its data access layer , includes concept of databse and SQL statements.(protect data )
+
+		5)DATABASE layer:-	-Storage of data of s/w.
+						-operations:-search,insert,update ,create,delete operation done in database .lowest layer in archi. 
+
+Environment in Industry:-
+	1)Analysis & design env.
+	2)The development env.(Provides required tool for task)
+	3)Common Buil env()
+	4)Testing env.(checks error)
+	5)Production env.(ready to launch task)
+
+(v.imp)  SDLC  -(S/w development life CYCLE)--->6 phases of it:-
+								   ->Requirement Gathering (planning)
+								   ->Analysis
+							         ->Designing 
+								   ->Implementaion of Code
+								   ->Testing
+								   ->Maintainence(upadate things etc.)
+
+Task!
+	-1>Types of software:-(refer https://www.geeksforgeeks.org/software-and-its-types/ )
+
+		1)System Software:-
+			 -System software basically controls a computer’s internal functioning.
+			 -It is like an interface between hardware and user applications.
+				SUB TYpes:
+					1.Operating System(manages):- When the computer system ON it is the first software that loads into the computer’s memory.
+									    - provides an interface to the user, which helps the user to interact with the computer system
+
+					2.Language Processor(converts):- system software converts the human-readable language into a machine language and vice versa
+										-so above conversion is done by the language processor.
+										
+
+
+					3.Device Driver(Controling a work):-A device driver is a program or software that controls a device and helps that device to perform its functions.
+										     -	
+
+
+				
+		2)Application Software:-It is a product or a program that is designed only to fulfill end-users’ requirements
+					     -IT'S written in a high-level language in general.
+
+
+
+
+			 -
+		3)utility software:-Utility software is always running in the background. 
+					 -Security programs include anti-virus software that scans and removes viruses.
+					 -Optimisation programs can include tools for system clean-up, disk defragmentation, and file compression.
+	
+	
+	
+
+
+
+
+	-2>Explain phases of SDLC:-defines activities that are performed during the software development process.
+		:6 phases in SDLC::
+		(1) Requirement:all the requirements are collected from the customer/client. They are provided in a document called Businessmen requirement specification (BRS) and System requirement specification (SRS).
+		(2)  Design: It has two steps:
+
+				High-level design (HLD): It gives the architecture of software products.
+				Low-level design (LLD): It describes how each and every feature in the product should work and every component.
+
+		(3)Implementation:-This phase consists of Front end + Middleware + Back-end and is longest one.
+					-In front-end: Development of coding is done even SEO settings are done.
+					-In Middleware: They connect both the front end and back end.
+					-In the back-end: A database is created.
+
+		(4)Testing:-Testing is 	 to find out the gaps and defects within the system and also to check whether the system is running according to the requirement of client.
+	
+		(5)Deployment(deliver):the successful product is delivered to the client, and even clients are trained on how to use the product.
+			
+		(6)Maintenance:a task of maintenance starts as when the client will come up with an error of product, the issue should be fixed from time to time.			
+
+
+
+Programming :- it means how to get the computers to solve the problems.
+			there are to key phases.
+				>you:without programmer (you yourself) the computer is useless.It does what you tell it to do .
+				>solve problems: Comp. are tools that are not magical or mysterious but exist to make task easier.
+
+
+		-Computer programmer makes the comp. run.
+
+note imp. -->Programming is creative.
+		-No right or wrong way to solve a problem like painting.
+		-choice are made upon ownselves as its considered not wrong!
+
+
+TYPES OF PROGRAMMING:-
+		1)procedural:- c LANG
+
+		2)Functional:- python
+
+		3)OOP:- 	C++
+
+		4)Scripting :- 	javascript
+
+		5)Logic:-		prolog
+
+TYPES OF PROGRAMMING LANG:-
+		1)LOw-level-lang:-- 0 and 1
+			SUB type:-
+					1.machine lang:-displayed in binanry or hexadecimal form(base 16) from. called-machine code or object code .
+					2.Assembly lang:-display in a symbolic and human -understandable form.
+
+		2)HIgh-level-lang---c ,c++, pyhton ,java etc.
+					  -easy to read as avaialble in english
+			SUB type:-
+					1.Procedural oriented pro lang:-C
+						-Divided into small procedures called routines or functions.Eg:basic ,pascal, FOrtran,c etc
+					2.Object oriented pro. lang:--c++
+						--Divided into small parts called objects.
+						--ADV:easy to debug and maintain
+					3.Natural lang:-Our lang.
+
+		3)Middle Level lang--(who understands both)C
+						--Also called pseudo  lang and intermidiate pro. lang.
+						--Supoorts features of high level lang.--closely related to human and machine lang.
+
+FRONT END:
+		~HTML
+		~cSS
+		~JAVASCRIPT-framewrok-react , angular
+
+BACKEND:
+		~PHP
+		~JAVA 
+		~PYHTON
+		~.NET
+
+PRO LANG IN BACKEND:STORES , ORGANIZES DATA AND ENSURING EVERY THING ON THE CLIENT-SIDE .
+				-COMUNICATES WITH FRONTEND FOR DIAPLYING  
+
+
+
+TASK:-->what's programming? Explain its types.
+		A]Programming is the process of creating a set of instructions that tell a computer how to perform a task. 
+		B]types:
+			)-Machine Level Language:-Machine language is lowest level of programming language. It handles binary data i.e. 0’s and 1’s.
+							 -It directly interacts with system
+							 -difficult for human beings to understand 
+			)-Assembly Level Language:-Assembly language is a middle-level language
+							  -It uses symbols to represent field of instructions.
+							  -The computer should have assembler to translate assembly level program to machine level program
+
+			)-High-level Language:-The instructions in this language are called codes or scripts.
+ 			(human lang.)			    -The computer needs a compiler and interpreter to convert high-level language program to machine level language.
+						    - It is easy to write a program using high level language and is less time-consuming. Debugging is also easy
+	
+
+25-01-23
+
+COMPILER:(c,c++)	compiler works as a translator.
+	     -Translates high level languages to low level lang.
+	     -translates whoel code at once.
+
+INTERPRETER:(PYTHON)
+		-translates the code line by line.  
+
+GITHUB: To store files/projects from our local computer to the server of git.
+
